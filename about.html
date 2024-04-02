@@ -36,6 +36,46 @@
 <body>
     <h1>About</h1>
     <div class = 'box'>
-        <p>hello</p>
+        <h2>Objective(s) and Motivations:</h2>
+        <p>
+            The authors of this website are finishing up their final years in the 
+            GIS program at the University of Toronto. In the past our group work has 
+            focussed mainly on the greater Toronto area. For this project we endeavored 
+            to change that. We present to you the Yellowstone Birder's Guide! The birding hobby 
+            - in which people undertake a serious effort to observe different bird species- 
+            is commonplace across the national parks of the United States. Focussing on one 
+            national park, the purpose of this project is to help birders plan bird watching 
+            trips into Yellowstone. The website displays a basemap with the borders of Yellowstone 
+            national park and its established trails. A GeoJSON with bird sightings for over 21 unique 
+            bird species can be displayed and queried for different seasons and years. The Turf.js API 
+            was leveraged to show areas where there are large amounts of bird sightings. Users can also 
+            navigate to other tabs to learn about the bird species shown on this website.
+        </p>
+        <h2>Data Acquisition:</h2>
+        <p>
+            The web mapping elements of this website are supported by a large amount of data of over 
+            12,000 individual bird sightings for 21 different bird species. The database was constructed 
+            using the GBIF API. GBIF (Global Biodiversity Information Facility) is an international repository 
+            that contains species distribution and occurrence datasets for hundreds of thousands of species. 
+            To date, the facility has an occurrence dataset of almost 3 billion georeferenced data points. 
+            We used the GBIF API to query this massive online dataset for sightings of the most common, most 
+            endangered, and most monitored bird species found in Yellowstone. We also filtered out sightings 
+            from before the year 2000. Finally, the datasets were merged into one large shapefile which was 
+            then exported into GeoJSON format.
+        </p>
+        <h2>Data Bias:</h2>
+        <p>
+            There are some important biases and disclaimers that should be understood when viewing this dataset. 
+            This web map is not displaying habitat distribution models. The information provided in this web map 
+            is only the sightings of specific bird species. Therefore there is a noticeable location bias to the 
+            most well traveled trails in Yellowstone. Lastly, this website does not interface directly with the 
+            GBIF library, therefore, no new bird sightings are appended to the dataset in real time. 
+        </p>
+        <h2>External Links:</h2>
+        <a href ="https://www.nps.gov/yell/index.htm">Yellowstone National Park <br></a>
+        <a href = 'https://www.gbif.org/'>Global Biodiversity Information Facility</a>
+        <h2><br>Datasets:</h2>
+        <a target = "blank" href ='occurence_datasets.pdf'> Occurence Dataset<br></a>
+        <a target = "blank" href ='yellowstone_shapefiles.pdf'> Yellowstone Shapefiles</a>
     </div>
 </body>
