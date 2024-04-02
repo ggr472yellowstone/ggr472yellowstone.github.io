@@ -271,7 +271,7 @@ birdcheck = document.getElementById('bird').value;
     }
     else if (birdcheck == 'Bucephala albeola'){
         filterBird = ['==', ['get', 'species'], 'Bucephala albeola'];
-        birdtext = 'Duck is the common name for numerous species of waterfowl in the family Anatidae.'+
+        birdtext = 'Duck is the common name for numerous species of waterfowl in the family Anatidae. '+
         'Ducks are generally smaller and shorter-necked than swans and geese, which are members of the same family.';
         birdheader = 'Bufflehead Duck - Bucephala Albeola';
         birddisplay = 'block';

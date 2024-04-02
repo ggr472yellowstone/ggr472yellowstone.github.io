@@ -28,10 +28,10 @@ p {
     background-color: #ffffff;
     color:#aa5e79;
   }
-  p
+
   /* add the inverted colour to the active/current link */
   .topnav a.active {
-    background-color: #aa5e79;
+    background-color: #555;
     color: white;
   }
 
