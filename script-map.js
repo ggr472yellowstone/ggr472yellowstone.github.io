@@ -272,31 +272,31 @@ birdcheck = document.getElementById('bird').value;
     else if (birdcheck == 'Bucephala albeola'){
         filterBird = ['==', ['get', 'species'], 'Bucephala albeola'];
         birdtext = 'Duck is the common name for numerous species of waterfowl in the family Anatidae, the Bufflehead is one of the smallest North American ducks and has an increasing population. '+
-        'The Bufflehead Duck is commonly found in YNP throughout all seasons and is a breeding species in the park.';
+        'Commonly found in YNP throughout all seasons and is a breeding species in the park.';
         birdheader = 'Bufflehead Duck - Bucephala Albeola';
         birddisplay = 'block';
         birdimage='images/bird1.jpg'
     }
     else if (birdcheck == 'Mergus merganser'){
         filterBird = ['==', ['get', 'species'], 'Mergus merganser'];
-        birdtext= 'In the Antidae family, this duck is of low concern in conservation status and is commonly found in YNP throughout all seasons and can live for 12 to 13 years.' + 
-            'The Common Merganser is also a breeding species in the park.';
+        birdtext= 'In the Antidae family, this duck is of low concern in conservation status and can live for 12 to 13 years.' + 
+            'Commonly found in YNP throughout all seasons and a breeding species in the park.';
         birdheader = 'Common Merganser - Mergus Merganser';
         birddisplay = 'block'
         birdimage='images/bird2.jpg'
     }
     else if (birdcheck == 'Haliaeetus leucocephalus'){
         filterBird = ['==', ['get', 'species'], 'Haliaeetus leucocephalus'];
-        birdtext= 'A bird of prey, the Bald Eagle is the national symbol of the United States. This bird is commonly found in YNP throughout all seasons and can live for 20-30 years.'+
-            'The Bald Eagle is a breeding species in the park.';
+        birdtext= 'A bird of prey, the Bald Eagle is the national symbol of the United States. They can live for 20-30 years and mate for life.'+
+            'Commonly found in YNP throughout all seasons and a breeding species in the park.';
         birdheader = 'Bald Eagle - Haliaeetus Leucocephalus';
         birddisplay = 'block'
         birdimage='images/bird3.jpg'
     }
     else if (birdcheck == 'Bubo virginianus'){
         filterBird = ['==', ['get', 'species'], 'Bubo virginianus'];
-        birdtext= ''+
-            '';
+        birdtext= 'The Great Horned Owl belongs to the owl family Strigidae. These birds are nocturnal and native to North America.'+
+            'Commonly found in YNP throughout all seasons and a breeding species in the park.';
         birdheader = 'Great Horned Owl - Bubo Virginianus';
         birddisplay = 'block'
         birdimage='images/bird4.jpg'
