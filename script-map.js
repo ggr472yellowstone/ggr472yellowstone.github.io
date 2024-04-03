@@ -271,80 +271,104 @@ birdcheck = document.getElementById('bird').value;
     }
     else if (birdcheck == 'Bucephala albeola'){
         filterBird = ['==', ['get', 'species'], 'Bucephala albeola'];
-        birdtext = 'Duck is the common name for numerous species of waterfowl in the family Anatidae. '+
-        'Ducks are generally smaller and shorter-necked than swans and geese, which are members of the same family.';
+        birdtext = 'Duck is the common name for numerous species of waterfowl in the family Anatidae, the Bufflehead is one of the smallest North American ducks and has an increasing population. '+
+        'The Bufflehead Duck is commonly found in YNP throughout all seasons and is a breeding species in the park.';
         birdheader = 'Bufflehead Duck - Bucephala Albeola';
         birddisplay = 'block';
         birdimage='images/bird1.jpg'
     }
     else if (birdcheck == 'Mergus merganser'){
         filterBird = ['==', ['get', 'species'], 'Mergus merganser'];
+        birdtext= 'In the Antidae family, this duck is of low concern in conservation status and is commonly found in YNP throughout all seasons and can live for 12 to 13 years.' + 
+            'The Common Merganser is also a breeding species in the park.';
         birdheader = 'Common Merganser - Mergus Merganser';
         birddisplay = 'block'
         birdimage='images/bird2.jpg'
     }
     else if (birdcheck == 'Haliaeetus leucocephalus'){
         filterBird = ['==', ['get', 'species'], 'Haliaeetus leucocephalus'];
+        birdtext= 'A bird of prey, the Bald Eagle is the national symbol of the United States. This bird is commonly found in YNP throughout all seasons and can live for 20-30 years.'+
+            'The Bald Eagle is a breeding species in the park.';
         birdheader = 'Bald Eagle - Haliaeetus Leucocephalus';
         birddisplay = 'block'
         birdimage='images/bird3.jpg'
     }
     else if (birdcheck == 'Bubo virginianus'){
         filterBird = ['==', ['get', 'species'], 'Bubo virginianus'];
+        birdtext= ''+
+            '';
         birdheader = 'Great Horned Owl - Bubo Virginianus';
         birddisplay = 'block'
         birdimage='images/bird4.jpg'
     }
     else if (birdcheck == 'Leuconotopicus villosus'){
         filterBird = ['==', ['get', 'species'], 'Leuconotopicus villosus'];
+        birdtext= ''+
+            '';
         birdheader = 'Hairy Woodpecker - Leuconotopicus Villosus';
         birddisplay = 'block'
         birdimage='images/bird5.jpg'
     }
     else if (birdcheck == 'Myadestes townsendi'){
         filterBird = ['==', ['get', 'species'], 'Myadestes townsendi'];
+        birdtext= ''+
+            '';
         birdheader = 'Townsend’s Solitaire - Myadestes Townsendi';
         birddisplay = 'block'
         birdimage='images/bird6.jpg'
     }
     else if (birdcheck == 'Sitta canadensis'){
         filterBird = ['==', ['get', 'species'], 'Sitta canadensis'];
+        birdtext= ''+
+            '';
         birdheader = 'Red-breasted Nuthatch - Sitta Canadensis';
         birddisplay = 'block'
         birdimage='images/bird7.jpg'
     }
     else if (birdcheck == 'Gymnorhinus cyanocephalus'){
         filterBird = ['==', ['get', 'species'], 'Gymnorhinus cyanocephalus'];
+        birdtext= ''+
+            '';
         birdheader = 'Pinyon Jay - Gymnorhinus Cyanocephalus';
         birddisplay = 'block'
         birdimage='images/bird8.jpg'
     }
     else if (birdcheck == 'Aegolius funereus'){
         filterBird = ['==', ['get', 'species'], 'Aegolius funereus'];
+        birdtext= ''+
+            '';
         birdheader = 'Boreal Owl - Aegolius Funereus';
         birddisplay = 'block'
         birdimage='images/bird9.jpg'
     }
     else if (birdcheck == 'Picoides arcticus'){
         filterBird = ['==', ['get', 'species'], 'Picoides arcticus'];
+        birdtext= ''+
+            '';
         birdheader = 'Black-backed Woodpecker - Picoides Arcticus';
         birddisplay = 'block'
         birdimage='images/bird10.jpg'
     }
     else if (birdcheck == 'Haemorhous mexicanus'){
         filterBird = ['==', ['get', 'species'], 'Haemorhous mexicanus'];
+        birdtext= ''+
+            '';
         birdheader = 'House Finch - Haemorhous Mexicanus';
         birddisplay = 'block'
         birdimage='images/bird11.jpg'
     }
     else if (birdcheck == 'Loxia leucoptera'){
         filterBird = ['==', ['get', 'species'], 'Loxia leucoptera'];
+        birdtext= ''+
+            '';
         birdheader = 'White-winged Crossbill - Loxia Leucoptera';
         birddisplay = 'block'
         birdimage='images/bird12.jpg'
     }
     else if (birdcheck == 'Spinus tristis'){
         filterBird = ['==', ['get', 'species'], 'Spinus tristis'];
+        birdtext= ''+
+            '';
         birdheader = 'American Goldfinch - Spinus Tristis';
         birddisplay = 'block'
         birdimage='images/bird13.jpg'
