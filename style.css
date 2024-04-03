@@ -74,6 +74,7 @@ p {
 
 .hide {
     display: none;
+    line-height: normal;
 }
 
 .img1:hover {
@@ -87,7 +88,6 @@ p {
     display: block;
     color:#8b88b6;
 }
-
 
 /*-------------*/
 
@@ -257,8 +257,50 @@ popup info box
 .box {
   position: absolute;
   top: 120px;
-  left: 10px;
-  right: 10px;
+  left: 150px;
+  right: 150px;
   border: 3px solid #aa5e79;
-  padding: 10px;
+  padding: 2%;
+}
+
+.box-row {
+  height: 380px;
+}
+
+.box-left-txt {
+  float: left;
+  padding: 30px;
+  padding-left: 60px;
+  width : 60%;
+  text-align: right;
+}
+
+.box-right-txt {
+  float: right;
+  padding: 30px;
+  padding-right: 60px;
+  width : 60%;
+  text-align: left;
+}
+
+.box-left {
+  float: left;
+  width: 38%;
+  overflow: hidden;
+  text-align: center;
+}
+.box-right {
+  float: right;
+  width: 38%;
+  overflow: hidden;
+  text-align: center;
+  
+}
+
+.box-img {
+  height: 300px;
+}
+
+figcaption {
+  text-align: center;
 }
