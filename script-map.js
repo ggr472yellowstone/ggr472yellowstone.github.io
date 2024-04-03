@@ -288,7 +288,7 @@ birdcheck = document.getElementById('bird').value;
     else if (birdcheck == 'Haliaeetus leucocephalus'){
         filterBird = ['==', ['get', 'species'], 'Haliaeetus leucocephalus'];
         birdtext= 'A bird of prey, the Bald Eagle is the national symbol of the United States. They can live for 20-30 years and mate for life.'+
-            'These raptors are commonly found in YNP throughout all seasons and are a breeding species in the park.';
+            ' These raptors are commonly found in YNP throughout all seasons and are a breeding species in the park.';
         birdheader = 'Bald Eagle - Haliaeetus Leucocephalus';
         birddisplay = 'block'
         birdimage='images/bird3.jpg'
@@ -296,7 +296,7 @@ birdcheck = document.getElementById('bird').value;
     else if (birdcheck == 'Bubo virginianus'){
         filterBird = ['==', ['get', 'species'], 'Bubo virginianus'];
         birdtext= 'The Great Horned Owl belongs to the owl family Strigidae. These birds are nocturnal and native to North America.'+
-            'They are commonly found in YNP throughout all seasons and are a breeding species in the park.';
+            ' They are commonly found in YNP throughout all seasons and are a breeding species in the park.';
         birdheader = 'Great Horned Owl - Bubo Virginianus';
         birddisplay = 'block'
         birdimage='images/bird4.jpg'
