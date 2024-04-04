@@ -383,42 +383,56 @@ birdcheck = document.getElementById('bird').value;
     }
     else if (birdcheck == 'Cygnus buccinator'){
         filterBird = ['==', ['get', 'species'], 'Cygnus buccinator'];
+        birdtext= 'One of the largest bird species in the world.'+
+            ' A monitored and breeding species in the park.';
         birdheader = 'Trumpeter Swan - Cygnus Buccinator';
         birddisplay = 'block'
         birdimage='images/bird15.jpg'
     }
     else if (birdcheck == 'Aquila chrysaetos'){
         filterBird = ['==', ['get', 'species'], 'Aquila chrysaetos'];
+        birdtext= 'The largest and fastest of all raptors.'+
+            ' The Golden Eagle is a breeding and monitored species in the park.';
         birdheader = 'Golden Eagle - Aquila Chrysaetos';
         birddisplay = 'block'
         birdimage='images/bird16.jpg'
     }
     else if (birdcheck == 'Gavia immer'){
         filterBird = ['==', ['get', 'species'], 'Gavia immer'];
+        birdtext= 'A species of duck in the Anatidae family with red eyes and a pointed bill.'+
+            ' This is a breeding and monitored species in the park.';
         birdheader = 'Common Loon - Gavia Immer';
         birddisplay = 'block'
         birdimage='images/bird17.jpg'
     }
     else if (birdcheck == 'Pandion haliaetus'){
         filterBird = ['==', ['get', 'species'], 'Pandion haliaetus'];
+        birdtext= ''+
+            '';
         birdheader = 'Ospreys - Pandion Haliaetus';
         birddisplay = 'block'
         birdimage='images/bird18.jpg'
     }
     else if (birdcheck == 'Falco peregrinus'){
         filterBird = ['==', ['get', 'species'], 'Falco peregrinus'];
+        birdtext= ''+
+            '';
         birdheader = 'Peregrine Falcons - Falco Peregrinus';
         birddisplay = 'block'
         birdimage='images/bird19.jpg'
     }
     else if (birdcheck == 'Pelecanus erythrorhynchos'){
         filterBird = ['==', ['get', 'species'], 'Pelecanus erythrorhynchos'];
+        birdtext= 'A member of the Pelecanidae family, they are ground nesters that live near lakes and ponds.'+
+            ' They are a breeding and monitored species in the park.';
         birdheader = 'American White Pelican - Pelecanus Erythrorhynchos';
         birddisplay = 'block'
         birdimage='images/bird20.jpg'
     }
     else if (birdcheck == 'Larus californicus'){
         filterBird = ['==', ['get', 'species'], 'Larus californicus'];
+        birdtext= ''+
+            '';
         birdheader = 'California Gulls - Larus Californicus';
         birddisplay = 'block'
         birdimage='images/bird21.jpg'
