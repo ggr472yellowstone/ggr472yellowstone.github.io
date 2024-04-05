@@ -383,7 +383,7 @@ birdcheck = document.getElementById('bird').value;
     }
     else if (birdcheck == 'Cygnus buccinator'){
         filterBird = ['==', ['get', 'species'], 'Cygnus buccinator'];
-        birdtext= 'One of the largest bird species in the world.'+
+        birdtext= 'One of the largest bird species in the world. Males are called cobs, while females are called pens and they are known to mate for life.'+
             ' A monitored and breeding species in the park.';
         birdheader = 'Trumpeter Swan - Cygnus Buccinator';
         birddisplay = 'block'
@@ -407,16 +407,16 @@ birdcheck = document.getElementById('bird').value;
     }
     else if (birdcheck == 'Pandion haliaetus'){
         filterBird = ['==', ['get', 'species'], 'Pandion haliaetus'];
-        birdtext= ''+
-            '';
+        birdtext= 'This widely distributed species of raptor has been alive for millions of years and can travel thousands of miles in a month.'+
+            ' They are a monitored species in YNP.';
         birdheader = 'Ospreys - Pandion Haliaetus';
         birddisplay = 'block'
         birdimage='images/bird18.jpg'
     }
     else if (birdcheck == 'Falco peregrinus'){
         filterBird = ['==', ['get', 'species'], 'Falco peregrinus'];
-        birdtext= ''+
-            '';
+        birdtext= 'The Peregrine Falcon can fly up to 200 mph at heights over half a mile.'+
+            ' They are a monitored species in YNP.';
         birdheader = 'Peregrine Falcons - Falco Peregrinus';
         birddisplay = 'block'
         birdimage='images/bird19.jpg'
@@ -431,8 +431,8 @@ birdcheck = document.getElementById('bird').value;
     }
     else if (birdcheck == 'Larus californicus'){
         filterBird = ['==', ['get', 'species'], 'Larus californicus'];
-        birdtext= ''+
-            '';
+        birdtext= 'You may see this species play with sticks by picking them up and dropping them again!'+
+            ' A rarely sighted bird in YNP, they are a monitored species in the park.';
         birdheader = 'California Gulls - Larus Californicus';
         birddisplay = 'block'
         birdimage='images/bird21.jpg'
