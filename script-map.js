@@ -303,64 +303,64 @@ birdcheck = document.getElementById('bird').value;
     }
     else if (birdcheck == 'Leuconotopicus villosus'){
         filterBird = ['==', ['get', 'species'], 'Leuconotopicus villosus'];
-        birdtext= ''+
-            '';
+        birdtext= 'This small yet powerful species is particularly known for their excavating abilities.'+
+            ' They are common in all seasons, and a breeding species in YNP.';
         birdheader = 'Hairy Woodpecker - Leuconotopicus Villosus';
         birddisplay = 'block'
         birdimage='images/bird5.jpg'
     }
     else if (birdcheck == 'Myadestes townsendi'){
         filterBird = ['==', ['get', 'species'], 'Myadestes townsendi'];
-        birdtext= ''+
-            '';
+        birdtext= 'The Townsend’s Solitaire is the only solitaire native to North America. They are medium-sized birds that eat mostly insects.'+
+            ' They are common in all seasons, and a breeding species in YNP.';
         birdheader = 'Townsend’s Solitaire - Myadestes Townsendi';
         birddisplay = 'block'
         birdimage='images/bird6.jpg'
     }
     else if (birdcheck == 'Sitta canadensis'){
         filterBird = ['==', ['get', 'species'], 'Sitta canadensis'];
-        birdtext= ''+
-            '';
+        birdtext= 'A species known for its tendency to creep down trees, they see the world from upside down!'+
+            ' They are common in all seasons, and a breeding species in YNP.';
         birdheader = 'Red-breasted Nuthatch - Sitta Canadensis';
         birddisplay = 'block'
         birdimage='images/bird7.jpg'
     }
     else if (birdcheck == 'Gymnorhinus cyanocephalus'){
         filterBird = ['==', ['get', 'species'], 'Gymnorhinus cyanocephalus'];
-        birdtext= ''+
-            '';
+        birdtext= 'This crestless blue jay belongs to the Corvidae family and is a ground forager in the Western region of the US.'+
+            ' They are rare in all seasons in YNP.';
         birdheader = 'Pinyon Jay - Gymnorhinus Cyanocephalus';
         birddisplay = 'block'
         birdimage='images/bird8.jpg'
     }
     else if (birdcheck == 'Aegolius funereus'){
         filterBird = ['==', ['get', 'species'], 'Aegolius funereus'];
-        birdtext= ''+
-            '';
+        birdtext= 'The most extremely sexually dimorphic American Owl, in which the female can be 2 times heavier and larger than the male.'+
+            ' They are rare in all seasons, and a breeding species in YNP.';
         birdheader = 'Boreal Owl - Aegolius Funereus';
         birddisplay = 'block'
         birdimage='images/bird9.jpg'
     }
     else if (birdcheck == 'Picoides arcticus'){
         filterBird = ['==', ['get', 'species'], 'Picoides arcticus'];
-        birdtext= ''+
-            '';
+        birdtext= 'This species is known for making its home in charred forests.'+
+            ' They are rare in all seasons, and a breeding species in YNP.';
         birdheader = 'Black-backed Woodpecker - Picoides Arcticus';
         birddisplay = 'block'
         birdimage='images/bird10.jpg'
     }
     else if (birdcheck == 'Haemorhous mexicanus'){
         filterBird = ['==', ['get', 'species'], 'Haemorhous mexicanus'];
-        birdtext= ''+
-            '';
+        birdtext= 'This species can vary drastically based on its habitat, and can look unrecognizable from one region to the next.'+
+            ' They are rare in all seasons at YNP.';
         birdheader = 'House Finch - Haemorhous Mexicanus';
         birddisplay = 'block'
         birdimage='images/bird11.jpg'
     }
     else if (birdcheck == 'Loxia leucoptera'){
         filterBird = ['==', ['get', 'species'], 'Loxia leucoptera'];
-        birdtext= ''+
-            '';
+        birdtext= 'This species breeding season is opportunistic, meaning that they breed when their resources are sufficient.'+
+            ' They are rare in all seasons at YNP.';
         birdheader = 'White-winged Crossbill - Loxia Leucoptera';
         birddisplay = 'block'
         birdimage='images/bird12.jpg'
