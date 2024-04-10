@@ -1,0 +1,386 @@
+{
+    "type": "FeatureCollection",
+    "crs": {
+        "type": "name",
+        "properties": {
+            "name": "EPSG:3857"
+        }
+    },
+    "features": [
+        {
+            "type": "Feature",
+            "id": 1,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12321840.839400001,
+                    5614190.7907999977
+                ]
+            },
+            "properties": {
+                "OBJECTID": 1,
+                "Title": "Mammoth Hot Springs"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 2,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12305341.8192,
+                    5608868.5262999982
+                ]
+            },
+            "properties": {
+                "OBJECTID": 2,
+                "Title": "Blacktail Plateau Drive"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 3,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12293366.7239,
+                    5610199.0923999995
+                ]
+            },
+            "properties": {
+                "OBJECTID": 3,
+                "Title": "Tower-Roosevelt area"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 4,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12271013.2127,
+                    5595296.7515999973
+                ]
+            },
+            "properties": {
+                "OBJECTID": 4,
+                "Title": "Lamar Valley"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 5,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12287512.232799999,
+                    5586781.1283000037
+                ]
+            },
+            "properties": {
+                "OBJECTID": 5,
+                "Title": "Grand Canyon of the Yellowstons"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 6,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12298422.8752,
+                    5588111.6943999976
+                ]
+            },
+            "properties": {
+                "OBJECTID": 6,
+                "Title": "Dunraven Pass"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 7,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12319711.933499999,
+                    5577999.3916999996
+                ]
+            },
+            "properties": {
+                "OBJECTID": 7,
+                "Title": "Norris Geyser Basin"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 8,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12329292.0098,
+                    5575338.2594000027
+                ]
+            },
+            "properties": {
+                "OBJECTID": 8,
+                "Title": "Artist Paint Pots"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 9,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12342597.6712,
+                    5565758.1832000017
+                ]
+            },
+            "properties": {
+                "OBJECTID": 9,
+                "Title": "Madison area"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 10,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12334348.1611,
+                    5555113.6539999992
+                ]
+            },
+            "properties": {
+                "OBJECTID": 10,
+                "Title": "Lower Geyser Basin"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 11,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12350048.841600001,
+                    5550057.502700001
+                ]
+            },
+            "properties": {
+                "OBJECTID": 11,
+                "Title": "Midway Geyser Basin"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 12,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12341000.991900001,
+                    5537017.9544999972
+                ]
+            },
+            "properties": {
+                "OBJECTID": 12,
+                "Title": "Upper Geyser Basin"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 13,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12333549.8215,
+                    5531429.5766000003
+                ]
+            },
+            "properties": {
+                "OBJECTID": 13,
+                "Title": "Old Faithful area"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 14,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12328227.5569,
+                    5517857.8020000011
+                ]
+            },
+            "properties": {
+                "OBJECTID": 14,
+                "Title": "Shoshone Lake"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 15,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12305075.706,
+                    5517857.8020000011
+                ]
+            },
+            "properties": {
+                "OBJECTID": 15,
+                "Title": "Grant Village"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 16,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12362290.0502,
+                    5489915.9129000008
+                ]
+            },
+            "properties": {
+                "OBJECTID": 16,
+                "Title": "Bechler area"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 17,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12261699.249600001,
+                    5496302.630400002
+                ]
+            },
+            "properties": {
+                "OBJECTID": 17,
+                "Title": "Thorofare Valley"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 18,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12306406.2721,
+                    5539146.860299997
+                ]
+            },
+            "properties": {
+                "OBJECTID": 18,
+                "Title": "West Thumb"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 19,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12285649.440200001,
+                    5532227.9162999988
+                ]
+            },
+            "properties": {
+                "OBJECTID": 19,
+                "Title": "Yellowstone Lake"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 20,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12296560.082600001,
+                    5546864.1438999996
+                ]
+            },
+            "properties": {
+                "OBJECTID": 20,
+                "Title": "Bridge Bay"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 21,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12306406.2721,
+                    5559105.3524999991
+                ]
+            },
+            "properties": {
+                "OBJECTID": 21,
+                "Title": "Hayden Valley"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 22,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12293366.7239,
+                    5553516.9746000022
+                ]
+            },
+            "properties": {
+                "OBJECTID": 22,
+                "Title": "Lake Village"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 23,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12283786.647599999,
+                    5552452.5217000023
+                ]
+            },
+            "properties": {
+                "OBJECTID": 23,
+                "Title": "Fishing Bridge"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 24,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12272343.7788,
+                    5552984.7481999993
+                ]
+            },
+            "properties": {
+                "OBJECTID": 24,
+                "Title": "Pelican Valley"
+            }
+        },
+        {
+            "type": "Feature",
+            "id": 25,
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -12301616.234000001,
+                    5572943.2404000014
+                ]
+            },
+            "properties": {
+                "OBJECTID": 25,
+                "Title": "Canyon Village"
+            }
+        }
+    ]
+}
