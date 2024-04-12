@@ -72,7 +72,7 @@ fetch('https://raw.githubusercontent.com/ggr472yellowstone/ggr472yellowstone.git
           map.addLayer({
           'id': 'hotspot-data',
           'type': 'symbol',
-              'source': 'hotspot-data',
+              'source': 'hotspot',
               'layout': {
           'text-field': ['get', 'Title'],
           'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
