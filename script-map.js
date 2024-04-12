@@ -76,7 +76,6 @@ fetch('https://raw.githubusercontent.com/ggr472yellowstone/ggr472yellowstone.git
     });
 
         });
-    })
 
 /*--------------------------------------------------------------------
     CREATE BOUNDING BOX AND HEXGRID
