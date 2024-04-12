@@ -1,9 +1,5 @@
 /*--------------------------------------------------------------------
-GGR472 LAB 4: Incorporating GIS Analysis into web maps using Turf.js 
---------------------------------------------------------------------*/
-
-/*--------------------------------------------------------------------
-Step 1: INITIALIZE MAP
+INITIALIZE MAP
 --------------------------------------------------------------------*/
 // Define access token
 mapboxgl.accessToken = 'pk.eyJ1IjoiamFtaWVjaG93IiwiYSI6ImNsczI5a2oxeDBqc3QybHBhZDRrYnJoMWoifQ.wLIXAScEoL9dMScxZBBjuw'; //****ADD YOUR PUBLIC ACCESS TOKEN*****
@@ -18,7 +14,7 @@ const map = new mapboxgl.Map({
 
 
 /*--------------------------------------------------------------------
-Step 2: VIEW GEOJSON POINT DATA ON MAP
+VIEW GEOJSON POINT DATA ON MAP
 --------------------------------------------------------------------*/
 //HINT: Create an empty variable
 //      Use the fetch method to access the GeoJSON from your online repository
@@ -83,7 +79,7 @@ fetch('https://raw.githubusercontent.com/ggr472yellowstone/ggr472yellowstone.git
     })
 
 /*--------------------------------------------------------------------
-    Step 3: CREATE BOUNDING BOX AND HEXGRID
+    CREATE BOUNDING BOX AND HEXGRID
 --------------------------------------------------------------------*/
 //HINT: All code to create and view the hexgrid will go inside a map load event handler
 //      First create a bounding box around the collision point data then store as a feature collection variable
@@ -219,7 +215,7 @@ slidercheck.addEventListener('click', () => {
 });
 
 /*--------------------------------------------------------------------
-SHOW COllISION MAP BASED ON INTERACTIVITY
+SHOW SIGHTINGS MAP BASED ON INTERACTIVITY
 --------------------------------------------------------------------*/
 
 // Change map layer display based on check box 
@@ -268,6 +264,7 @@ document.getElementById('returnbutton').addEventListener('click', () => {
     });
   });
 
+// Initialize filters
 let birdcheck;
 const changeText = document.querySelector("#change-text");
 const changeHeader = document.querySelector("#change-header");
@@ -277,6 +274,7 @@ const infobox = document.getElementById('infobox');
 document.getElementById("birdfieldset").addEventListener('change',(e) => {   
 birdcheck = document.getElementById('bird').value;
 
+    // create the text, header, display, image for each pop up box when a bird species is selected, and change them based on the selection
     let birdtext;
     let birdheader;
     let birddisplay;
@@ -455,6 +453,7 @@ birdcheck = document.getElementById('bird').value;
         birdimage='images/bird21.jpg'
     }
 
+    // set the popup image, header, text, display
     changeImage.src = birdimage
     changeHeader.textContent = birdheader;
     changeText.textContent = birdtext;
