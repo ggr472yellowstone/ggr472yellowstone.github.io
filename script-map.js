@@ -63,6 +63,23 @@ fetch('https://raw.githubusercontent.com/ggr472yellowstone/ggr472yellowstone.git
                 'line-width': 2
               }
           });
+
+        // Adding hotspots
+        map.addSource('hotspot', {
+          type: 'geojson',
+          data: 'https://raw.githubusercontent.com/ggr472yellowstone/ggr472yellowstone.github.io/main/data/hotspots.json' // Your URL to your uoft.geojson file
+          });
+          map.addLayer({
+          'id': 'hotspot-data',
+          'type': 'symbol',
+              'source': 'hotspot-data',
+              'layout': {
+          'text-field': ['get', 'Title'],
+          'text-variable-anchor': ['top', 'bottom', 'left', 'right'],
+          },
+    });
+
+        });
     })
 
 /*--------------------------------------------------------------------
