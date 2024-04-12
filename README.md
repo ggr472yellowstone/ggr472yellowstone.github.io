@@ -25,7 +25,7 @@ o   Hairy Woodpecker - Leuconotopicus villosus
 o   Townsend’s Solitaire - Myadestes townsendi
 o   Red-breasted Nuthatch - Sitta canadensis
 
-Most rare (taken from the YNP bird checklist, only the birds that are labeled ‘Rare’ in every season):
+Most rare:
 o   Pinyon Jay - Gymnorhinus cyanocephalus
 o   Boreal Owl - Aegolius funereus
 o   Northern Saw-whet Owl - Aegolius acadius brooksi
@@ -36,10 +36,13 @@ o   White-winged Crossbill - Loxia leucoptera
 o   American Goldfinch - Spinus tristis
 o   Virginia Rail - Rallus limicola
 
-Yellowstone’s bird species of concern (monitoring programs in place):
+Monitored:
 o   Trumpeter Swan - Cygnus buccinator
 o   Golden Eagle - Aquila chrysaetos
 o   Common Loon - Gavia immer
+o   American White Pelican - Pelecanus erythrorhynchos
+o   Double-Crested Cormorants - Phalacrocorax auritus
+o   California Gulls - Larus californicus
 
 Raptors (YNP supports 19 breeding species) (listed below are monitored species of raptors):
 o   Bald Eagles - Haliaeetus leucocephalus
@@ -47,12 +50,7 @@ o   Golden Eagles - Aquila chrysaetos
 o   Ospreys - Pandion Haliaetus
 o   Peregrine Falcons - Falco peregrinus
 
-Wetland bird monitoring:
-o   Trumpeter Swan - Cygnus buccinator
-o   Common Loon - Gavia immer
-o   American White Pelican - Pelecanus erythrorhynchos
-o   Double-Crested Cormorants - Phalacrocorax auritus
-o   California Gulls - Larus californicus
+
 
 
 
